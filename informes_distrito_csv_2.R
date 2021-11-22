@@ -86,9 +86,6 @@ no_distrito_join[!duplicated(no_distrito_join$Número_Instrumento),][,c(1,4,5,14
 #Os que se poden pasar a trámite de audiencia que non estan en EIA
 superados[superados%in%informados][!(superados[superados%in%informados])%in%EIA]
 
-as.Date(Sys.time())-as.Date("2020-03-15")
-as.Date("2020-06-01")-as.Date("2020-03-15")#Dias con paralizacion de expedientes
-#Dias desde peticion con 3 meses mas los 78 de suspension covid 168 dias
 
 
 
